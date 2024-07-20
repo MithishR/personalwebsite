@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-center items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-center items-center px-4 bg-[#000000] text-white'>
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
         <li>
