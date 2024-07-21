@@ -16,9 +16,10 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Work />
       <Projects />
       <Contact /> 
-      <Work />
+      
     </div>
   );
 }
