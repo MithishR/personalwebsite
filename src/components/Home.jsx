@@ -15,9 +15,11 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             Hey There! I'm <span className="text-yellow-custom">Mithish</span>
           </h2>
-          <p className="text-gray-500 py-4 max-w-md mx-auto md:mx-0">
-        Welcome to my little space on the internet! I am a fourth year Computer Science major with a Data Science minor at The University of British Columbia, Okanagan. <br /><br />
-        I am passionate about Software Development, Artificial Intelligence, Machine learning, and Aviation! <br /><br />
+          <p className="text-white py-4 max-w-md mx-auto md:mx-0">
+        Welcome to my little space on the internet! I am a fourth year Computer Science major with a Data Science minor at 
+        <span className="text-yellow-custom"> The University of British Columbia, Okanagan. </span><br /><br />
+        I am passionate about  <span className="text-yellow-custom">
+            Software Development, Artificial Intelligence, Machine learning, and Aviation! </span> <br /><br />
       
             </p>
 
