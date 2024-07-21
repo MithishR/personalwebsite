@@ -6,6 +6,7 @@ import Home from './components/Home';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Work from './components/Work';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact /> 
+      <Work />
     </div>
   );
 }

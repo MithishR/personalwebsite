@@ -24,3 +24,7 @@
         hsla(11, 64%, 85%, 0.885)   
     )!important;
 }
+#skills {
+  padding-top: 60rem; /* Adjust to your needs */
+  padding-bottom: 50rem; /* Adjust to your needs */
+}

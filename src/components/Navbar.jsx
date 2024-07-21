@@ -36,7 +36,12 @@ const Navbar = () => {
         </li>
         <li>
           <Link to='work' smooth={true} duration={500}>
-            Work
+            Work Experience
+          </Link>
+        </li>
+        <li>
+          <Link to='projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li>
