@@ -49,7 +49,7 @@ const skillCategories = {
     { name: "React", icon: faReact },
     { name: "Node.js", icon: faNodeJs },
     { name: "Django", icon: django },
-    { name: "Next", icon: next },
+    { name: "Next.js", icon: next },
     { name: "NumPy", icon: numpy },
     { name: "Pandas", icon: pandas },
     { name: "Seaborn", icon: seaborn },
