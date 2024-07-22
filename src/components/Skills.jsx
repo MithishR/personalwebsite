@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { skillCategories } from '../data/skillCategories'; // Import from data folder
-
+import { skillCategories } from '../data/skillCategories'; 
 
 
 const Skills = () => {
