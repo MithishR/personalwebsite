@@ -1,5 +1,6 @@
 import equitable from '../assets/logos/equitable.png';
 import ubc from '../assets/logos/ubc.png';
+import qscu from '../assets/logos/qscu.png';
 
 export const workexp = [
   {
@@ -23,6 +24,25 @@ export const workexp = [
   },
   {
     id: 2,
+    company: "UBC Okanagan Quantitative Sciences Course Union",
+    location: "Kelowna, British Columbia",
+    logo: qscu,
+    positionslist: [
+      {
+        position: "Computer Science Representative",
+        date: "May 2023-April 2024",
+        description: `
+          <ul>
+            <li>• Represents the Computer Science student body of UBC Okanagan to the QSCU.</li>
+            <li>• Organize events and workshops for Computer Science students and connect with professors and senior students to guide students.</li>
+            <li>• Promoting digital literacy in the university through events across all faculties and year levels.</li>
+          </ul>
+        `,
+      },
+    ],
+  },
+  {
+    id: 3,
     company: "The University of British Columbia, Okanagan",
     location: "Kelowna, British Columbia",
     logo: ubc,
@@ -61,4 +81,5 @@ export const workexp = [
       },
     ],
   },
+
 ];

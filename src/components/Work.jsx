@@ -36,7 +36,9 @@ const Work = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-white mb-8">
           Work <span className="text-yellow-custom">Experience</span>
         </h2>
-
+        <h3 className="text-xl font-semibold text-white mb-8">
+          Click on a company and a position to see more details!
+        </h3>
         {workexp.map((company) => (
           <div
             key={company.id}
@@ -46,15 +48,22 @@ const Work = () => {
               className="flex items-center cursor-pointer"
               onClick={() => handleCompanyClick(company.id)}
             >
+              
               <img
                 src={company.logo}
                 alt={company.company}
-                className="h-12 w-12 rounded-full bg-white border border-gray-300 mr-4" // Circular with white background
+                className="h-12 w-12 rounded-full bg-white border border-gray-300 mr-4" 
               />
               <h3 className="text-2xl font-bold text-white">
-                {company.company}
+                {company.company}  
               </h3>
+              <h4 className="text-sm font-bold text-white ml-auto">
+                {company.location}  
+              </h4>
+              
             </div>
+            
+
 
             {selectedCompanies.has(company.id) && (
               <div className="mt-4 pl-16">
