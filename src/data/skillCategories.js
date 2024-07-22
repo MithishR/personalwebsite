@@ -1,4 +1,3 @@
-// src/data/skillCategories.js
 import {
     faJava,
     faPython,
@@ -29,6 +28,8 @@ import {
   import tailwind from '../assets/icons/tailwind.png';
   import tensorflow from '../assets/icons/tensorflow.png';
   import uipath from '../assets/icons/uipath.png';
+  import ubuntu from '../assets/icons/ubuntu.png';
+  import jsp from '../assets/icons/jsp.png';
   
   export const skillCategories = {
     "Programming Languages": [
@@ -42,7 +43,8 @@ import {
       { name: "HTML", icon: faHtml5 },
       { name: "CSS", icon: faCss3Alt },
       { name: "Bootstrap", icon: faBootstrap },
-      { name: "Tailwind CSS", icon: tailwind }
+      { name: "Tailwind CSS", icon: tailwind },
+
     ],
     "Frameworks and Libraries": [
       { name: "React", icon: faReact },
@@ -52,7 +54,8 @@ import {
       { name: "NumPy", icon: numpy },
       { name: "Pandas", icon: pandas },
       { name: "Seaborn", icon: seaborn },
-      { name: "Jupyter", icon: jupyter }
+      { name: "Jupyter", icon: jupyter },
+      { name: "JSP", icon: jsp }
     ],
     "Data Analytics": [
       { name: "Tableau", icon: tableau },
