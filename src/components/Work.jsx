@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { workexp } from '../data/workexp'; // Update this path based on where you store workexp
+import { workexp } from '../data/workexp'; 
 
 const Work = () => {
   const [selectedCompanies, setSelectedCompanies] = useState(new Set());

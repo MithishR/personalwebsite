@@ -16,7 +16,7 @@ const Projects = () => {
     <div
       name="project"
       id="project"
-      className="min-h-screen w-full bg-[#000000] flex items-center justify-center pt-0 pb-"
+      className="min-h-screen w-full bg-[#000000] flex items-center justify-center pt-0 pb-8"
     >
       <div className="max-w-screen-lg mx-auto w-full px-4 text-center" >
         <h2 className="text-4xl sm:text-7xl font-bold text-white mb-12">

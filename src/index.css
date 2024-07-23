@@ -25,17 +25,27 @@
     )!important;
 }
 #skills {
-  padding-top: 60rem; /* Adjust to your needs */
-  padding-bottom: 50rem; /* Adjust to your needs */
+  padding-top: 60rem; 
+  padding-bottom: 50rem; 
 }
 
 #work {
-  padding-top: 45rem; /* Adjust to your needs */
-  padding-bottom: 50rem; /* Adjust to your needs */
+  padding-top: 45rem; 
+  padding-bottom: 50rem;
 }
 
 #project {
-  padding-top: 34rem; /* Adjust to your needs */
-  padding-bottom: 50rem; /* Adjust to your needs */
+  padding-top: 34rem;
+  padding-bottom: 50rem; 
+}
+
+
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#work, #project, #contact, #about {
+  @apply section-padding;
 }
 

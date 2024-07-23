@@ -10,7 +10,7 @@ const About = () => {
         style={{ marginBottom: '0', paddingBottom: '0' }}
       >
         <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row-reverse items-center justify-between w-full px-4 py-12">
-          {/* Text Section */}
+
           <div className="flex flex-col justify-center text-center md:text-left md:w-1/2">
             <h2 className="text-4xl sm:text-7xl font-bold text-white">
               About <span className="text-yellow-custom">Me</span>
@@ -26,7 +26,7 @@ const About = () => {
               Feel free to reach out if you want to chat about any of these topics or just connect—I’m always open to meeting new people! 
             </p>
           </div>
-          {/* Image Section */}
+=
           <div className="hidden md:flex flex-shrink-0 md:w-1/2 justify-center">
             <img
               src={mithishvancouver}

@@ -40,7 +40,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='projects' smooth={true} duration={500}>
+          <Link to='project' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
@@ -92,7 +92,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      {/* Social icons */}
       
     </div>
   );
