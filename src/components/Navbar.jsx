@@ -17,7 +17,6 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-center items-center px-4 bg-[#000000] text-white'>
-      {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
         <li>
           <Link to='home' smooth={true} duration={500}>
@@ -50,11 +49,11 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      {/* Hamburger */}
+
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
-      {/* Mobile menu */}
+   
       <ul
         className={
           !nav

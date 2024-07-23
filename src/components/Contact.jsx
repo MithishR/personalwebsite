@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLocation, faLocationDot, faMap, faPhone, faPhoneAlt, faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   const form = useRef();
@@ -50,19 +50,34 @@ const Contact = () => {
             <h4 className="text-xl font-semibold text-white mb-4 text-center lg:text-left">
               I'm always excited to hear from you! If you have any questions, or just want to say hi, feel free to contact me via email or through the form! <br></br>
              
-              <p>You can also check some of my social media profiles below! </p>
             </h4>
-            <div className="flex justify-center mt-4 lg:mt-0">
+
+
+            <h5 className="text-lg font-semibold text-white mb-4">Connect with me: Social Media</h5>
+
+
+            <div className="flex justify-center mt-4 lg:mt-0 mb-5">
               <a href="https://github.com/MithishR" target="_blank" rel="noopener noreferrer" className="mr-4">
                 <FontAwesomeIcon icon={faGithub} className="text-white text-3xl hover:text-yellow-custom" />
               </a>
               <a href="https://linkedin.com/in/mithish17" target="_blank" rel="noopener noreferrer" className="mr-4">
                 <FontAwesomeIcon icon={faLinkedin} className="text-white text-3xl hover:text-yellow-custom" />
               </a>
-              <a href="mailto:mithishrg@gmail.com">
-                <FontAwesomeIcon icon={faEnvelope} className="text-white text-3xl hover:text-yellow-custom" />
-              </a>
+
             </div>
+            <div className="flex items-center justify-center mt-0">
+                <FontAwesomeIcon icon={faEnvelope} className="text-white text-3xl hover:text-yellow-custom mr-2" />
+                <span className="text-white text-l">mithishrg@gmail.com</span>
+            </div>
+            <div className="flex items-center justify-center mt-4">
+                <FontAwesomeIcon icon={faPhoneSquare} className="text-white text-3xl hover:text-yellow-custom mr-2" />
+                <span className="text-white text-l">+1 (250) 258-3091</span>
+            </div>
+            <div className="flex items-center justify-center mt-4">
+                <FontAwesomeIcon icon={faLocationDot} className="text-white text-3xl hover:text-yellow-custom mr-2" />
+                <span className="text-white text-l">Waterloo, Ontario, CAN</span>
+            </div>
+           
           </div>
           <div className="lg:w-1/2">
             <form ref={form} onSubmit={sendEmail} className="max-w-lg mx-auto">
