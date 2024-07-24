@@ -1,7 +1,7 @@
 {
   "name": "mithish-personalportfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -24,7 +24,7 @@
     "semantic-ui-react": "^2.1.5",
     "sweetalert2": "^11.6.13",
     "web-vitals": "^2.1.4",
-    "homepage": "https://www.mithishravisankar.com/"
+    "homepage": "https://mithishr.github.io/personalwebsite"
   },
   "scripts": {
     "start": "concurrently \"node kill-port.js\" \"react-scripts start\"",
