@@ -2,7 +2,7 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import mithish from '../assets/mithish.png';
 import { Link } from "react-scroll"; 
-
+import pdf from "../assets/Resume.pdf"; 
 const Home = () => {
   return (
     <div
@@ -38,8 +38,7 @@ const Home = () => {
             <button
   className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md border border-white bg-transparent hover:bg-white hover:text-black cursor-pointer"
 >
-        <a
-          href="/Resume.pdf"  download="Resume.pdf" className="flex items-center" >
+        <a  href={pdf} download="Resume.pdf" className="flex items-center" >
            Download my resume
           <span className="group-hover:rotate-90 duration-300">
             <HiArrowNarrowRight size={25} className="ml-3" />
