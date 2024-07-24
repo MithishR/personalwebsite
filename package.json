@@ -1,7 +1,8 @@
 {
   "name": "mithish-personalportfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://mithishr.github.io/personalwebsite/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -58,6 +59,5 @@
     "kill-port": "^2.0.1",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
-  },
-  "homepage": "https://mithishravisankar.com"
+  }
 }
