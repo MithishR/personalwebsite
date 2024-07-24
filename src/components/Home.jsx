@@ -2,7 +2,6 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import mithish from '../assets/mithish.png';
 import { Link } from "react-scroll"; 
-import resume from "../assets/Resume.pdf";
 
 const Home = () => {
   return (
@@ -40,12 +39,14 @@ const Home = () => {
   className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md border border-white bg-transparent hover:bg-white hover:text-black cursor-pointer"
 >
         <a
-          href="src/assets/Resume.pdf"  download className="flex items-center" >
-          Resume
+          href="/Resume.pdf"  download="Resume.pdf" className="flex items-center" >
+           Download my resume
           <span className="group-hover:rotate-90 duration-300">
             <HiArrowNarrowRight size={25} className="ml-3" />
           </span>
         </a>
+
+       
       </button>
 
             
