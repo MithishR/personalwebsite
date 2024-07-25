@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.7b74cd5d.css",
-    "main.js": "/personalwebsite/static/js/main.11897c90.js",
+    "main.css": "/personalwebsite/static/css/main.6b931352.css",
+    "main.js": "/personalwebsite/static/js/main.33284195.js",
     "static/media/mithish-vancouver.png": "/personalwebsite/static/media/mithish-vancouver.857aaf48084563a7eee9.png",
     "static/media/spacebank.png": "/personalwebsite/static/media/spacebank.4a4a9ef148fd1d3b5625.png",
     "static/media/communicado.png": "/personalwebsite/static/media/communicado.76da94ce5f9d634096e3.png",
@@ -19,11 +19,11 @@
     "static/media/firebase.png": "/personalwebsite/static/media/firebase.8017d37146152952ef8c.png",
     "static/media/next.png": "/personalwebsite/static/media/next.70a93475e8c739b65181.png",
     "index.html": "/personalwebsite/index.html",
-    "main.7b74cd5d.css.map": "/personalwebsite/static/css/main.7b74cd5d.css.map",
-    "main.11897c90.js.map": "/personalwebsite/static/js/main.11897c90.js.map"
+    "main.6b931352.css.map": "/personalwebsite/static/css/main.6b931352.css.map",
+    "main.33284195.js.map": "/personalwebsite/static/js/main.33284195.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b74cd5d.css",
-    "static/js/main.11897c90.js"
+    "static/css/main.6b931352.css",
+    "static/js/main.33284195.js"
   ]
 }
