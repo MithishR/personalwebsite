@@ -33,7 +33,7 @@ const Work = () => {
       className="bg-[#000000] flex flex-col items-center pt-16 pb-8"
     >
       <div className="max-w-screen-lg mx-auto w-full px-8">
-        <h2 className="text-4xl sm:text-7xl font-bold text-white mb-8 text-center">
+        <h2 className="text-4xl sm:text-7xl font-bold text-white mb-8 text-center ">
           Work <span className="text-yellow-custom">Experience</span>
         </h2>
         <h3 className="text-xl font-semibold text-white mb-8 text-center">
