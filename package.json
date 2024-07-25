@@ -2,7 +2,7 @@
   "name": "mithish-personalportfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://mithishravisankar.com/",
+  "homepage": "https://mithishr.github.io/personalwebsite/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
