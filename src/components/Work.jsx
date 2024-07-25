@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { workexp } from '../data/workexp'; 
+import { workexp } from '../data/workexp';
 
 const Work = () => {
   const [selectedCompanies, setSelectedCompanies] = useState(new Set());
@@ -27,74 +27,50 @@ const Work = () => {
   };
 
   return (
-    <div
+    <section
       name="work"
       id="work"
-      className="h-screen w-full bg-[#000000] flex items-center justify-center pt-16 pb-8"
+      className="bg-[#000000] flex flex-col items-center pt-16 pb-8"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center w-full px-8 py-16">
-        <h2 className="text-4xl sm:text-7xl font-bold text-white mb-8">
+      <div className="max-w-screen-lg mx-auto w-full px-8">
+        <h2 className="text-4xl sm:text-7xl font-bold text-white mb-8 text-center">
           Work <span className="text-yellow-custom">Experience</span>
         </h2>
-        <h3 className="text-xl font-semibold text-white mb-8">
+        <h3 className="text-xl font-semibold text-white mb-8 text-center">
           Click on a company and a position to see more details!
         </h3>
-        {workexp.map((company) => (
-          <div
-            key={company.id}
-            className={`mb-8 w-full border-2 ${selectedCompanies.has(company.id) ? 'border-yellow-custom' : 'border-gray-500'} p-4 rounded-lg`}
-          >
+        <div className="w-full space-y-6">
+          {workexp.map((company) => (
             <div
-              className="flex items-center cursor-pointer"
-              onClick={() => handleCompanyClick(company.id)}
+              key={company.id}
+              className={`w-full border-2 ${selectedCompanies.has(company.id) ? 'border-yellow-custom' : 'border-gray-500'} p-4 rounded-lg`}
             >
-              
-              <img
-                src={company.logo}
-                alt={company.company}
-                className="h-12 w-12 rounded-full bg-white border border-gray-300 mr-4" 
-              />
-              <h3 className="text-2xl font-bold text-white">
-                {company.company}  
-              </h3>
-              <h4 className="text-sm font-bold text-white ml-auto">
-                {company.location}  
-              </h4>
-              
-            </div>
-            
+              <div
+                className="flex items-center cursor-pointer"
+                onClick={() => handleCompanyClick(company.id)}
+              >
+                <img
+                  src={company.logo}
+                  alt={company.company}
+                  className="h-12 w-12 rounded-full bg-white border border-gray-300 mr-4"
+                />
+                <h3 className={`text-2xl font-bold text-white ${selectedCompanies.has(company.id) ? 'text-yellow-custom' : ''}`}>
+                  {company.company}
+                </h3>
+                <h4 className={`text-sm font-bold text-white ml-auto ${selectedCompanies.has(company.id) ? 'text-yellow-custom' : ''}`}>
+                  {company.location}
+                </h4>
+              </div>
 
-
-            {selectedCompanies.has(company.id) && (
-              <div className="mt-4 pl-16">
-                {company.positionslist.length === 1 ? (
-                  <div
-                    className={`cursor-pointer ${selectedPositions.has(`${company.id}-${company.positionslist[0].position}`) ? 'text-yellow-custom' : 'text-white'}`}
-                    onClick={() => handlePositionClick(company.id, company.positionslist[0].position)}
-                  >
-                    <h4 className="text-xl font-semibold">
-                      {company.positionslist[0].position}
-                    </h4>
-                    {selectedPositions.has(`${company.id}-${company.positionslist[0].position}`) && (
-                      <>
-                        <p className="text-yellow-custom italic mt-2">
-                          {company.positionslist[0].date}
-                        </p>
-                        <div
-                          className="text-white mt-2"
-                          dangerouslySetInnerHTML={{ __html: company.positionslist[0].description }}
-                        />
-                      </>
-                    )}
-                  </div>
-                ) : (
-                  company.positionslist.map((position, index) => (
+              {selectedCompanies.has(company.id) && (
+                <div className="mt-4 pl-16">
+                  {company.positionslist.map((position, index) => (
                     <div key={index} className="mb-4">
                       <div
                         className={`cursor-pointer ${selectedPositions.has(`${company.id}-${position.position}`) ? 'text-yellow-custom' : 'text-white'}`}
                         onClick={() => handlePositionClick(company.id, position.position)}
                       >
-                        <h4 className="text-xl font-semibold">
+                        <h4 className="text-xl font-semibold hover:text-yellow-custom">
                           {position.position}
                         </h4>
                         {selectedPositions.has(`${company.id}-${position.position}`) && (
@@ -110,15 +86,14 @@ const Work = () => {
                         )}
                       </div>
                     </div>
-                  ))
-                )}
-              </div>
-            )}
-          </div>
-        ))}
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
-
 export default Work;

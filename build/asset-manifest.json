@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/personalwebsite/static/css/main.7b74cd5d.css",
+    "main.js": "/personalwebsite/static/js/main.11897c90.js",
+    "static/media/mithish-vancouver.png": "/personalwebsite/static/media/mithish-vancouver.857aaf48084563a7eee9.png",
+    "static/media/spacebank.png": "/personalwebsite/static/media/spacebank.4a4a9ef148fd1d3b5625.png",
+    "static/media/communicado.png": "/personalwebsite/static/media/communicado.76da94ce5f9d634096e3.png",
+    "static/media/mithish.png": "/personalwebsite/static/media/mithish.f4845a115a6650885fba.png",
+    "static/media/analysis.png": "/personalwebsite/static/media/analysis.c77785be491191f18e4c.png",
+    "static/media/website.png": "/personalwebsite/static/media/website.11075fd3e0eafd895277.png",
+    "static/media/Resume.pdf": "/personalwebsite/static/media/Resume.70265f88150704a82f77.pdf",
+    "static/media/ubuntu.png": "/personalwebsite/static/media/ubuntu.2297485c0e10524200ba.png",
+    "static/media/jupyter.png": "/personalwebsite/static/media/jupyter.99866465c617f9d499aa.png",
+    "static/media/numpy.png": "/personalwebsite/static/media/numpy.69907e190c71a179a497.png",
+    "static/media/studio.png": "/personalwebsite/static/media/studio.e95390128ad3e9da7b60.png",
+    "static/media/seaborn.png": "/personalwebsite/static/media/seaborn.ef78732d88e70678b06b.png",
+    "static/media/blueprism.png": "/personalwebsite/static/media/blueprism.615e759972e0d29b30a1.png",
+    "static/media/ubc.png": "/personalwebsite/static/media/ubc.38b92b5a17f5e5cb3287.png",
+    "static/media/firebase.png": "/personalwebsite/static/media/firebase.8017d37146152952ef8c.png",
+    "static/media/next.png": "/personalwebsite/static/media/next.70a93475e8c739b65181.png",
+    "index.html": "/personalwebsite/index.html",
+    "main.7b74cd5d.css.map": "/personalwebsite/static/css/main.7b74cd5d.css.map",
+    "main.11897c90.js.map": "/personalwebsite/static/js/main.11897c90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b74cd5d.css",
+    "static/js/main.11897c90.js"
+  ]
+}
