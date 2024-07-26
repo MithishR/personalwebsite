@@ -2,7 +2,7 @@ import analysis from '../assets/screenshots/analysis.png';
 import communicado from '../assets/screenshots/communicado.png';
 import spacebank from '../assets/screenshots/spacebank.png';
 import website from '../assets/screenshots/website.png';
-
+import canada from '../assets/screenshots/canada.png';
 export const projects = [
     {
         id: 1,
@@ -61,6 +61,19 @@ export const projects = [
             <li>• Analyzed the Breast Cancer Wisconsin Data Set to identify key predictors influencing cancer diagnosis.</li>
             <li>• Utilized Python libraries (NumPy, pandas, seaborn, Matplotlib) for advanced data visualization and analysis. </li>
             <li>• Created a Tableau dashboard to enhance data comprehension and showcase relationships between features. </li>
+        `
+    
+      },
+
+    
+    {
+        id: 5,
+        name: "Coming soon!",
+        // stack: "",
+        picture: canada , 
+        github: "",
+        desc: `
+          Canadian weather analysis and predictor
         `
     
       },

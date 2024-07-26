@@ -18,7 +18,7 @@ const Projects = () => {
       id="project"
       className="min-h-screen w-full bg-[#000000] flex items-center justify-center pt-0 pb-8"
     >
-      <div className="max-w-screen-lg mx-auto w-full px-4 text-center" >
+      <div className="max-w-screen-lg mx-auto w-full px-4 text-center">
         <h2 className="text-4xl sm:text-7xl font-bold text-white mb-12">
           Personal <span className="text-yellow-custom">Projects</span>
         </h2>
@@ -31,9 +31,7 @@ const Projects = () => {
               key={project.id}
               className={`bg-gray-800 p-4 rounded-lg shadow-lg transition-all duration-300 overflow-hidden`}
               style={{
-                maxHeight: expandedProjectIds.includes(project.id) ? '800px' : '390px', 
-                
-                flex: 1,
+                maxHeight: expandedProjectIds.includes(project.id) ? '800px' : '390px',
               }}
             >
               <img
@@ -47,23 +45,31 @@ const Projects = () => {
               >
                 {project.name}
               </h3>
-              <p className="text-lg text-gray-300 mb-2">
-                <strong>Tech Stack:</strong> {project.stack}
-              </p>
-              {expandedProjectIds.includes(project.id) && (
-                <div
-                  className="text-gray-200 mb-4"
-                  dangerouslySetInnerHTML={{ __html: project.desc }}
-                />
+              {project.stack && (
+                <p className="text-lg text-gray-300 mb-2">
+                  <strong>Tech Stack:</strong> {project.stack}
+                </p>
               )}
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-yellow-custom hover:underline"
-              >
-                View on GitHub
-              </a>
+              {expandedProjectIds.includes(project.id) && (
+                <>
+                  {project.desc && (
+                    <div
+                      className="text-gray-200 mb-4"
+                      dangerouslySetInnerHTML={{ __html: project.desc }}
+                    />
+                  )}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-yellow-custom hover:underline"
+                    >
+                      View on GitHub
+                    </a>
+                  )}
+                </>
+              )}
             </div>
           ))}
         </div>
