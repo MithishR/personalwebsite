@@ -73,7 +73,7 @@ export const projects = [
         picture: canada , 
         github: "",
         desc: `
-          Canadian weather analysis and predictor
+          Canada : Weather Predictor 
         `
     
       },
