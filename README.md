@@ -1,5 +1,5 @@
 # Personal Website
 
-This is the github repository for my personal website.
+This website was developed using **JavaScript, React and NodeJS** along with **Tailwind CSS** for UI elements.
 
-This is still under development. 
+Visit my website at: https://mithishr.github.io/personalwebsite/
