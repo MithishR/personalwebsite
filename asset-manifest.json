@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6e8923b.css",
-    "main.js": "/static/js/main.9dd8ebe9.js",
+    "main.css": "/static/css/main.6b931352.css",
+    "main.js": "/static/js/main.98ff09b4.js",
     "static/media/mithish-vancouver.png": "/static/media/mithish-vancouver.857aaf48084563a7eee9.png",
     "static/media/spacebank.png": "/static/media/spacebank.4a4a9ef148fd1d3b5625.png",
     "static/media/communicado.png": "/static/media/communicado.76da94ce5f9d634096e3.png",
     "static/media/mithish.png": "/static/media/mithish.f4845a115a6650885fba.png",
+    "static/media/canada.png": "/static/media/canada.781a50ac7290b5fe4667.png",
     "static/media/analysis.png": "/static/media/analysis.c77785be491191f18e4c.png",
     "static/media/website.png": "/static/media/website.11075fd3e0eafd895277.png",
+    "static/media/Resume.pdf": "/static/media/Resume.70265f88150704a82f77.pdf",
     "static/media/ubuntu.png": "/static/media/ubuntu.2297485c0e10524200ba.png",
     "static/media/jupyter.png": "/static/media/jupyter.99866465c617f9d499aa.png",
     "static/media/numpy.png": "/static/media/numpy.69907e190c71a179a497.png",
@@ -18,11 +20,11 @@
     "static/media/firebase.png": "/static/media/firebase.8017d37146152952ef8c.png",
     "static/media/next.png": "/static/media/next.70a93475e8c739b65181.png",
     "index.html": "/index.html",
-    "main.f6e8923b.css.map": "/static/css/main.f6e8923b.css.map",
-    "main.9dd8ebe9.js.map": "/static/js/main.9dd8ebe9.js.map"
+    "main.6b931352.css.map": "/static/css/main.6b931352.css.map",
+    "main.98ff09b4.js.map": "/static/js/main.98ff09b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6e8923b.css",
-    "static/js/main.9dd8ebe9.js"
+    "static/css/main.6b931352.css",
+    "static/js/main.98ff09b4.js"
   ]
 }
