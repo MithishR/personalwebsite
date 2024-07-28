@@ -52,7 +52,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex flex-shrink-0 md:w-1/2 justify-center">
+        <div className=" flex-shrink-0 md:w-1/2 justify-center">
           <img
             src={mithish}
             alt="my profile"
