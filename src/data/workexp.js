@@ -6,7 +6,7 @@ export const workexp = [
   {
     id: 1,
     company: "The Equitable Life Insurance Company of Canada",
-    location: "Waterloo, Ontario",
+    location: "Waterloo, ON",
     logo: equitable,
     positionslist: [
       {
@@ -25,7 +25,7 @@ export const workexp = [
   {
     id: 2,
     company: "UBC Okanagan Quantitative Sciences Course Union",
-    location: "Kelowna, British Columbia",
+    location: "Kelowna, BC",
     logo: qscu,
     positionslist: [
       {
@@ -44,7 +44,7 @@ export const workexp = [
   {
     id: 3,
     company: "The University of British Columbia, Okanagan",
-    location: "Kelowna, British Columbia",
+    location: "Kelowna, BC",
     logo: ubc,
     positionslist: [
       {
