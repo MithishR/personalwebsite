@@ -15,7 +15,9 @@ export const workexp = [
         description: `
           <ul>
             <li>• Automated and updated a deprecated report compiler application end-to-end using Blue Prism and Microsoft Power Automate, saving 250 hours per week.</li>
+            <li></li>
             <li>• Improved existing processes and supported the creation of enterprise standards for cloud, DevOps, API, and security.</li>
+            <li></li>
             <li>• Designed and configured automation platform process solutions in accordance with standard design principles and conventions.</li>
           </ul>
         `,
@@ -34,7 +36,9 @@ export const workexp = [
         description: `
           <ul>
             <li>• Represents the Computer Science student body of UBC Okanagan to the QSCU.</li>
+            <li></li>
             <li>• Organize events and workshops for Computer Science students and connect with professors and senior students to guide students.</li>
+            <li></li>
             <li>• Promoting digital literacy in the university through events across all faculties and year levels.</li>
           </ul>
         `,
@@ -53,6 +57,7 @@ export const workexp = [
         description: `
           <ul>
             <li>• Facilitated tutorial sessions, delivering instruction, and evaluating assignments for 60 students registered in my tutorial sections as a TA for MATH 116-Calculus I for Management and Economics.</li>
+            <li></li>
             <li>• Performed invigilation duties, marked exams and provided academic assistance to the 150 students registered in the MATH 116 class.</li>
           </ul>
         `,
@@ -63,7 +68,9 @@ export const workexp = [
         description: `
           <ul>
             <li>• SL Leader for Computer Programming and Calculus I.</li>
+            <li></li>
             <li>• Provided flexible instruction and tutoring to about 50 students in Computer Science and Calculus to students, employing interactive learning strategies and conducting sessions and office hours to facilitate student learning.</li>
+            <li></li>
             <li>• Students who attended 4 or more SL sessions had a 5% increase in their grade average compared to students who did not show up.</li>
           </ul>
         `,
@@ -74,7 +81,9 @@ export const workexp = [
         description: `
           <ul>
             <li>• Led a group of 40 first year students by organizing events and building a community agreement for the 10 days long orientation program.</li>
+           <li></li>
             <li>• Promoted diversity and inclusivity, organized 15 social events in coordination with 60 orientation leaders for over 2000 incoming students.</li>
+            <li></li>
             <li>• Created a community and built relationships with the group of new students and was a resource person to new-to-UBC students, fellow volunteers, and campus partners.</li>
           </ul>
         `,
