@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.105a5da5.css",
-    "main.js": "/static/js/main.14226058.js",
+    "main.js": "/static/js/main.a42a0d27.js",
     "static/media/mithish-vancouver.png": "/static/media/mithish-vancouver.857aaf48084563a7eee9.png",
     "static/media/spacebank.png": "/static/media/spacebank.4a4a9ef148fd1d3b5625.png",
     "static/media/communicado.png": "/static/media/communicado.76da94ce5f9d634096e3.png",
@@ -21,10 +21,10 @@
     "static/media/next.png": "/static/media/next.70a93475e8c739b65181.png",
     "index.html": "/index.html",
     "main.105a5da5.css.map": "/static/css/main.105a5da5.css.map",
-    "main.14226058.js.map": "/static/js/main.14226058.js.map"
+    "main.a42a0d27.js.map": "/static/js/main.a42a0d27.js.map"
   },
   "entrypoints": [
     "static/css/main.105a5da5.css",
-    "static/js/main.14226058.js"
+    "static/js/main.a42a0d27.js"
   ]
 }
