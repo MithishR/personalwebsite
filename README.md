@@ -66,6 +66,7 @@ This project will be continuously developed and refined to enhance its features 
 - Improved Accessibility
 - Blog section
 
+-----
 
 
 Crafted with ❤️ by Mithish :)
