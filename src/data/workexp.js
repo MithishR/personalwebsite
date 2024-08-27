@@ -10,10 +10,14 @@ export const workexp = [
     logo: equitable,
     positionslist: [
       {
-        position: "Robotics Process Automation Developer : Co-op",
+        position: "Software and Robotics Process Automation Developer : Co-op",
         date: "May 2024 - Present",
         description: `
           <ul>
+            <li>• Designing and developing a cloud based chatbot to retrieve API keys from Azure Devops, with integration to Microsoft Teams.</li>
+            <li></li>
+            <li>• Worked on debugging, enhancing and developing React based applications for the internal company website.</li>
+            <li></li>
             <li>• Automated and updated a deprecated report compiler application end-to-end using Blue Prism and Microsoft Power Automate, saving 250 hours per week.</li>
             <li></li>
             <li>• Improved existing processes and supported the creation of enterprise standards for cloud, DevOps, API, and security.</li>
