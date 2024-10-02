@@ -66,17 +66,17 @@ export const projects = [
       },
 
     
-    {
-        id: 5,
-        name: "Coming soon!",
-        // stack: "",
-        picture: canada , 
-        github: "",
-        desc: `
-          Canada : Weather Predictor 
-        `
+    // {
+    //     id: 5,
+    //     name: "Coming soon!",
+    //     // stack: "",
+    //     picture: canada , 
+    //     github: "",
+    //     desc: `
+    //       Canada : Weather Predictor 
+    //     `
     
-      },
+    //   },
 
     // TEMPLATE: 
     // {

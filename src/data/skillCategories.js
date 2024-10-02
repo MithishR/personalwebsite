@@ -10,7 +10,7 @@ import {
     faDocker,
     faBootstrap,
   } from "@fortawesome/free-brands-svg-icons";
-  import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+  import { faC, faDatabase } from "@fortawesome/free-solid-svg-icons";
   import R from '../assets/icons/R.png';
   import blueprism from '../assets/icons/blueprism.png';
   import django from '../assets/icons/django.png';
@@ -30,14 +30,16 @@ import {
   import uipath from '../assets/icons/uipath.png';
   import ubuntu from '../assets/icons/ubuntu.png';
   import jsp from '../assets/icons/jsp.png';
-  
+  import c from '../assets/icons/c.png';
   export const skillCategories = {
     "Programming Languages": [
       { name: "Java", icon: faJava },
+      { name: "C", icon: c },
       { name: "Python", icon: faPython },
       { name: "JavaScript", icon: faJs },
       { name: "SQL", icon: faDatabase },
-      { name: "Kotlin", icon: kotlin }
+
+
     ],
     "Web Development": [
       { name: "HTML", icon: faHtml5 },

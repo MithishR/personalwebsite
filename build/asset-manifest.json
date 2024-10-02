@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.105a5da5.css",
-    "main.js": "/static/js/main.48e60132.js",
+    "main.js": "/static/js/main.6522fc3f.js",
     "static/media/mithish-vancouver.png": "/static/media/mithish-vancouver.857aaf48084563a7eee9.png",
     "static/media/spacebank.png": "/static/media/spacebank.4a4a9ef148fd1d3b5625.png",
     "static/media/communicado.png": "/static/media/communicado.76da94ce5f9d634096e3.png",
@@ -9,7 +9,8 @@
     "static/media/canada.png": "/static/media/canada.781a50ac7290b5fe4667.png",
     "static/media/analysis.png": "/static/media/analysis.c77785be491191f18e4c.png",
     "static/media/website.png": "/static/media/website.11075fd3e0eafd895277.png",
-    "static/media/Resume.pdf": "/static/media/Resume.0311cce3562b7e5da069.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.589fbffc0fed0ebf95ea.pdf",
+    "static/media/c.png": "/static/media/c.95b670e39c6538c75d05.png",
     "static/media/ubuntu.png": "/static/media/ubuntu.2297485c0e10524200ba.png",
     "static/media/jupyter.png": "/static/media/jupyter.99866465c617f9d499aa.png",
     "static/media/numpy.png": "/static/media/numpy.69907e190c71a179a497.png",
@@ -21,10 +22,10 @@
     "static/media/next.png": "/static/media/next.70a93475e8c739b65181.png",
     "index.html": "/index.html",
     "main.105a5da5.css.map": "/static/css/main.105a5da5.css.map",
-    "main.48e60132.js.map": "/static/js/main.48e60132.js.map"
+    "main.6522fc3f.js.map": "/static/js/main.6522fc3f.js.map"
   },
   "entrypoints": [
     "static/css/main.105a5da5.css",
-    "static/js/main.48e60132.js"
+    "static/js/main.6522fc3f.js"
   ]
 }
