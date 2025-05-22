@@ -22,6 +22,8 @@ The website contains **8** distinct sections, namely:
 
 - **Contact**: Information on how to get in touch with me, including a message box which is directly connected to my email.
 
+- **Footer**: Similar to the navbar, this is navigation bar at the bottom of the screen to navigate between different sections of the page. 
+
 # Features
 - Responsive webpage which adapts and works well with desktop and mobile screens.
 
