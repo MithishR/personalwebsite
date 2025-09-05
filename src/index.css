@@ -5,6 +5,8 @@
 @layer base { 
     body {
         @apply font-[Raleway];
+        @apply bg-[#002B36]; /* deep teal background */
+        @apply text-white;   /* white text */
     }
     li {
         @apply px-4;
