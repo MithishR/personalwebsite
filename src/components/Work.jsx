@@ -97,10 +97,7 @@ const Work = () => {
           Click on a company and a position to see more details!
         </h3>
         {renderExperience(workexp, 'work')}
-        <h2 className="text-3xl font-bold text-white mt-16 mb-6 text-center">
-          <span className="text-yellow-custom"> Upcoming Experiences</span>
-        </h2>
-        {renderExperience(upcomingexp, 'upcoming', true)}
+        
       </div>
     </section>
   );

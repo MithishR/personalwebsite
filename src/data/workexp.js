@@ -5,8 +5,69 @@ import fdu from '../assets/logos/fdu.png';
 import tum from '../assets/logos/tum.png';
 
 export const workexp = [
+
   {
+
+     
     id: 1,
+    company: "The University of British Columbia, Okanagan",
+    location: "Kelowna, BC",
+    logo: ubc,
+    positionslist: [
+      {
+        position: "Undergraduate Resarcher (Directed Studies) – HelpMe System Development and Optimization",
+        date: "September 2025 - Present",
+        description: `
+          <ul class="list-disc list-inside space-y-2 pl-4">
+            <li>Directed Studies in Computer Science at UBC Okanagan, supervised by Dr. Ramon Lawrence, starting from September 2025.</li>
+            <li> Enhancing the HelpMe student support chatbot system for scalability, data security, and UI usability.</li>
+            <li>  Implementing database redundancy, encryption, and performance optimization with weekly development milestones.</li>
+          </ul>
+        `,
+      },
+       {
+        position: "Undergraduate Teaching Assistant, Computer Science",
+        date: "September 2025 - Present",
+        description: `
+          <ul class="list-disc list-inside space-y-2 pl-4">
+            <li>Facilitated lab sections, delivered instruction, and evaluated assignments for 65 students in COSC 111: Introductory Computer Science..</li>
+          
+          </ul>
+        `,
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    company: "Technical University of Munich",
+    location: "Munich, Germany",
+    logo: tum,
+    positionslist: [
+      {
+        position: "Research Software Development Intern - TUM PREP Program",
+        date: "July 2025-August 2025",
+        description: 
+        `  <ul class="list-disc list-inside space-y-2 pl-4">
+            <li>Architected and implemented a protocol versioning subsystem for the momenTUM Research Platform, enabling persistent
+storage, retrieval, and Git-style diff comparison of clinical study protocols reducing protocol retrieval and verification time by
+˜
+85% for multi-center trials.</li>
+            <li> Developed RESTful API endpoints with Node.js (Express) and MongoDB, applying Mongoose schema validation, aggregation
+pipelines, and compound indexing to improve query performance by˜35% on datasets exceeding 10k records</li>
+            <li>  Engineered Git-inspired branching models and semantic versioning principles to clinical research workflows, ensuring 100%
+reproducibility of protocol history in compliance with Good Clinical Practices.</li>
+            <li> Developed a React.js front-end with dynamic routing, reusable components, and state management to streamline version
+visualization and selection for non-technical research staff.</li>
+
+          </ul>
+        `,
+      },
+    ],
+  },
+   
+  {
+    id: 3,
     company: "The Equitable Life Insurance Company of Canada",
     location: "Waterloo, ON",
     logo: equitable,
@@ -39,7 +100,7 @@ export const workexp = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     company: "Fairleigh Dickinson University",
     location: "Vancouver, BC",
     logo: fdu,
@@ -58,27 +119,8 @@ export const workexp = [
       },
     ],
   },
-  {
-    id: 3,
-    company: "UBC Okanagan Quantitative Sciences Course Union",
-    location: "Kelowna, BC",
-    logo: qscu,
-    positionslist: [
-      {
-        position: "Computer Science Representative",
-        date: "May 2023 - April 2024",
-        description: `
-          <ul class="list-disc list-inside space-y-2 pl-4">
-            <li>Represents the Computer Science student body of UBC Okanagan to the QSCU.</li>
-            <li>Organized events and workshops for Computer Science students and connected with professors and senior students to guide peers academically and professionally.</li>
-            <li>Promoted digital literacy across the university through events spanning all faculties and year levels.</li>
-          </ul>
-        `,
-      },
-    ],
-  },
-  {
-    id: 4,
+   {
+    id: 5,
     company: "The University of British Columbia, Okanagan",
     location: "Kelowna, BC",
     logo: ubc,
@@ -117,47 +159,67 @@ export const workexp = [
       },
     ],
   },
+  {
+    id: 6,
+    company: "UBC Okanagan Quantitative Sciences Course Union",
+    location: "Kelowna, BC",
+    logo: qscu,
+    positionslist: [
+      {
+        position: "Computer Science Representative",
+        date: "May 2023 - April 2024",
+        description: `
+          <ul class="list-disc list-inside space-y-2 pl-4">
+            <li>Represents the Computer Science student body of UBC Okanagan to the QSCU.</li>
+            <li>Organized events and workshops for Computer Science students and connected with professors and senior students to guide peers academically and professionally.</li>
+            <li>Promoted digital literacy across the university through events spanning all faculties and year levels.</li>
+          </ul>
+        `,
+      },
+    ],
+  },
+ 
 ];
 
 
 export const upcomingexp = [
-  {
-    id: 1,
-    company: "Technical University of Munich",
-    location: "Munich, Germany",
-    logo: tum,
-    positionslist: [
-      {
-        position: "Incoming Research Intern – TUM PREP",
-        date: "From July 2025",
-        description: `
-          <ul class="list-disc list-inside space-y-2 pl-4">
-            <li>Incoming Research Intern at the Technical University of Munich Practical Experience Research Program (TUM PREP), July–August 2025.</li>
-            <li> Enhancing a Telegram-based chatbot for personalized circadian and sleep health by implementing micro-randomized trial (micro-RCT) and JITAI frameworks.</li>
-            <li>  Integrating real-time monitoring, context-awareness, and AI-driven communication into a scalable digital health intervention.</li>
+//   {
+//     id: 1,
+//     company: "Technical University of Munich",
+//     location: "Munich, Germany",
+//     logo: tum,
+//     positionslist: [
+//       {
+//         position: "Incoming Research Intern – TUM PREP",
+//         date: "From July 2025",
+//         description: `
+//           <ul class="list-disc list-inside space-y-2 pl-4">
+//             <li>Incoming Research Intern at the Technical University of Munich Practical Experience Research Program (TUM PREP), July–August 2025.</li>
+//             <li> Enhancing a Telegram-based chatbot for personalized circadian and sleep health by implementing micro-randomized trial (micro-RCT) and JITAI frameworks.</li>
+//             <li>  Integrating real-time monitoring, context-awareness, and AI-driven communication into a scalable digital health intervention.</li>
 
-          </ul>
-        `,
-      },
-    ],
-  },
-  {
-    id: 2,
-    company: "The University of British Columbia, Okanagan",
-    location: "Kelowna, BC",
-    logo: ubc,
-    positionslist: [
-      {
-        position: "Undergraduate Resarcher (Directed Studies) – HelpMe System Development and Optimization",
-        date: "From September 2025",
-        description: `
-          <ul class="list-disc list-inside space-y-2 pl-4">
-            <li>Directed Studies in Computer Science at UBC Okanagan, supervised by Dr. Ramon Lawrence, starting from September 2025.</li>
-            <li> Enhancing the HelpMe student support chatbot system for scalability, data security, and UI usability.</li>
-            <li>  Implementing database redundancy, encryption, and performance optimization with weekly development milestones.</li>
-          </ul>
-        `,
-      },
-    ],
-  },
+//           </ul>
+//         `,
+//       },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     company: "The University of British Columbia, Okanagan",
+//     location: "Kelowna, BC",
+//     logo: ubc,
+//     positionslist: [
+//       {
+//         position: "Undergraduate Resarcher (Directed Studies) – HelpMe System Development and Optimization",
+//         date: "From September 2025",
+//         description: `
+//           <ul class="list-disc list-inside space-y-2 pl-4">
+//             <li>Directed Studies in Computer Science at UBC Okanagan, supervised by Dr. Ramon Lawrence, starting from September 2025.</li>
+//             <li> Enhancing the HelpMe student support chatbot system for scalability, data security, and UI usability.</li>
+//             <li>  Implementing database redundancy, encryption, and performance optimization with weekly development milestones.</li>
+//           </ul>
+//         `,
+//       },
+//     ],
+//   },
 ];

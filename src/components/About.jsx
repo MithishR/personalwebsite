@@ -1,5 +1,5 @@
 import React from 'react';
-import mithishvancouver from '../assets/mithish-vancouver.png';
+import mithishlindau from '../assets/mithish-lindau.png';
 
 const About = () => { 
     return (
@@ -16,20 +16,34 @@ const About = () => {
                         About <span className="text-yellow-custom">Me</span>
                     </h2>
                     <p className="text-white py-4 max-w-md mx-auto md:mx-0">
-                        I’m a 21-year-old software developer based in Canada. Born in India, grew up in Dubai, and moved to Kelowna, BC at 18 to study at UBC, I bring diverse perspective on solving key problems. 
-                        I’m currently on an eight-month co-op at <span className="text-yellow-custom"> The Equitable Insurance Company </span> in Waterloo, Ontario, as a 
-                        <span className="text-yellow-custom"> Robotics Process Automation Developer. </span> <br /><br />
-                        I’m always on the lookout to learn new things. Currently, I’m learning about  <span className="text-yellow-custom"> TensorFlow and scikit-learn</span> for machine learning and sharpening my 
-                        web development skills. As you can tell, I’m interested in learning about  <span className="text-yellow-custom"> Machine Learning and Artificial Intelligence. </span><br /><br />
-                        Beyond work and school, I’m a huge  <span className="text-yellow-custom"> aviation enthusiast. </span> I love plane-spotting and can usually tell you what type of aircraft is flying overhead. 
-                        I also enjoy cafe-hopping, exploring new places, traveling, and reading. <br /><br />
-                        Feel free to reach out if you want to chat about any of these topics or just connect—I’m always open to meeting new people! 
+                        Hi! I am Mithish, a software developer based in Kelowna, Canada. 
+                        I am a final-year Computer Science student at <span className="text-yellow-custom"> The University of British Columbia </span> with a passion for 
+                        building impactful systems that deliver real value to users.<br /><br />
+
+                        My experience ranges from deploying <span className="text-yellow-custom">large-scale financial systems</span> to developing 
+                        <span className="text-yellow-custom"> version control solutions </span>for clinical science researchers. 
+                        With a strong background in full-stack development, cloud technologies, and machine learning, I strive to be a 
+                        <span className="text-yellow-custom"> people-centric </span>software developer who creates technology that empowers and connects users <br /><br />
+
+                        Beyond the classroom, I’ve gained diverse experiences - as a <span className="text-yellow-custom">teaching assistant</span>,  
+                        <span className="text-yellow-custom"> course union representative, 
+                     co-op software developer at an insurance company, and 
+                        conducting research abroad in Germany </span>. 
+                        which have strengthened my technical skills, collaboration, and adaptability. <br /><br />
+
+                        Outside of work, I am an <span className="text-yellow-custom">aviation enthusiast, café hopper, and a traveller </span>
+                        who loves to explore new places.  <br /><br />
+
+                        I’m currently <span className="text-yellow-custom">seeking opportunities to apply my skills in full-stack and AI-driven applications starting in 
+                        Summer 2026</span>. Feel free to connect or reach out-I’m always open to new ideas and conversations!
+
+
                     </p>
                 </div>
 
                 <div className="flex-shrink-0 md:w-1/2 flex justify-center">
                     <img
-                        src={mithishvancouver}
+                        src={mithishlindau}
                         alt="my profile"
                         className="rounded-2xl w-3/4 md:w-4/5 object-cover"
                     />
