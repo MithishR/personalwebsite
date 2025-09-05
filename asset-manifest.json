@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a59b202c.css",
-    "main.js": "/static/js/main.bdf58bc2.js",
-    "static/media/mithish-vancouver.png": "/static/media/mithish-vancouver.857aaf48084563a7eee9.png",
+    "main.css": "/static/css/main.141c2140.css",
+    "main.js": "/static/js/main.6ba72ed9.js",
     "static/media/spacebank.png": "/static/media/spacebank.4a4a9ef148fd1d3b5625.png",
     "static/media/communicado.png": "/static/media/communicado.76da94ce5f9d634096e3.png",
     "static/media/mithish.png": "/static/media/mithish.f4845a115a6650885fba.png",
     "static/media/canada.png": "/static/media/canada.781a50ac7290b5fe4667.png",
     "static/media/analysis.png": "/static/media/analysis.c77785be491191f18e4c.png",
     "static/media/website.png": "/static/media/website.11075fd3e0eafd895277.png",
+    "static/media/mithish-lindau.png": "/static/media/mithish-lindau.3c356c8348ef311edea2.png",
     "static/media/Resume.pdf": "/static/media/Resume.f6c6c91b7492610f58b5.pdf",
     "static/media/c.png": "/static/media/c.95b670e39c6538c75d05.png",
     "static/media/ubuntu.png": "/static/media/ubuntu.2297485c0e10524200ba.png",
@@ -22,11 +22,11 @@
     "static/media/firebase.png": "/static/media/firebase.8017d37146152952ef8c.png",
     "static/media/next.png": "/static/media/next.70a93475e8c739b65181.png",
     "index.html": "/index.html",
-    "main.a59b202c.css.map": "/static/css/main.a59b202c.css.map",
-    "main.bdf58bc2.js.map": "/static/js/main.bdf58bc2.js.map"
+    "main.141c2140.css.map": "/static/css/main.141c2140.css.map",
+    "main.6ba72ed9.js.map": "/static/js/main.6ba72ed9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a59b202c.css",
-    "static/js/main.bdf58bc2.js"
+    "static/css/main.141c2140.css",
+    "static/js/main.6ba72ed9.js"
   ]
 }
