@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.141c2140.css",
+    "main.css": "/static/css/main.7cf69463.css",
     "main.js": "/static/js/main.6ba72ed9.js",
     "static/media/spacebank.png": "/static/media/spacebank.4a4a9ef148fd1d3b5625.png",
     "static/media/communicado.png": "/static/media/communicado.76da94ce5f9d634096e3.png",
@@ -22,11 +22,11 @@
     "static/media/firebase.png": "/static/media/firebase.8017d37146152952ef8c.png",
     "static/media/next.png": "/static/media/next.70a93475e8c739b65181.png",
     "index.html": "/index.html",
-    "main.141c2140.css.map": "/static/css/main.141c2140.css.map",
+    "main.7cf69463.css.map": "/static/css/main.7cf69463.css.map",
     "main.6ba72ed9.js.map": "/static/js/main.6ba72ed9.js.map"
   },
   "entrypoints": [
-    "static/css/main.141c2140.css",
+    "static/css/main.7cf69463.css",
     "static/js/main.6ba72ed9.js"
   ]
 }
