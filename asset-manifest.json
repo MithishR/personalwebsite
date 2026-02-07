@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7cf69463.css",
-    "main.js": "/static/js/main.6ba72ed9.js",
+    "main.js": "/static/js/main.543569c5.js",
     "static/media/spacebank.png": "/static/media/spacebank.4a4a9ef148fd1d3b5625.png",
     "static/media/communicado.png": "/static/media/communicado.76da94ce5f9d634096e3.png",
     "static/media/mithish.png": "/static/media/mithish.f4845a115a6650885fba.png",
@@ -9,7 +9,7 @@
     "static/media/analysis.png": "/static/media/analysis.c77785be491191f18e4c.png",
     "static/media/website.png": "/static/media/website.11075fd3e0eafd895277.png",
     "static/media/mithish-lindau.png": "/static/media/mithish-lindau.3c356c8348ef311edea2.png",
-    "static/media/Resume.pdf": "/static/media/Resume.f6c6c91b7492610f58b5.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.e0d93284856e873c28c8.pdf",
     "static/media/c.png": "/static/media/c.95b670e39c6538c75d05.png",
     "static/media/ubuntu.png": "/static/media/ubuntu.2297485c0e10524200ba.png",
     "static/media/jupyter.png": "/static/media/jupyter.99866465c617f9d499aa.png",
@@ -23,10 +23,10 @@
     "static/media/next.png": "/static/media/next.70a93475e8c739b65181.png",
     "index.html": "/index.html",
     "main.7cf69463.css.map": "/static/css/main.7cf69463.css.map",
-    "main.6ba72ed9.js.map": "/static/js/main.6ba72ed9.js.map"
+    "main.543569c5.js.map": "/static/js/main.543569c5.js.map"
   },
   "entrypoints": [
     "static/css/main.7cf69463.css",
-    "static/js/main.6ba72ed9.js"
+    "static/js/main.543569c5.js"
   ]
 }
